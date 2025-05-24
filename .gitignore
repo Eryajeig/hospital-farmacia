@@ -9,6 +9,15 @@ application/logs/*
 !application/logs/.htaccess
 
 composer.lock
+=======
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!system/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+>>>>>>> 9af2dc27f430cd8d5cb73de80194c2fba8432d8a
 
 user_guide_src/build/*
 user_guide_src/cilexer/build/*
@@ -27,3 +36,11 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.stTheme.cache
 *.sublime-workspace
 *.sublime-project
+=======
+
+#codeigniter 3
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+/vendor/
+>>>>>>> 9af2dc27f430cd8d5cb73de80194c2fba8432d8a
